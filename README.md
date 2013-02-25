@@ -12,4 +12,4 @@ Installation
 - Enable the "Refresh using native hooks or polling" option
 
 
-Normally, the above workspace option can cause performance issues on Linux, as there is no native hook implementation in Eclipse. This plugin leverages the jnotify library (found at http://jnotify.sourceforge.net) to hook into the inotify library on Linux. The result, is that you see your file changes in realtime in Eclipse, with no performance hit!
+Normally, the above workspace option can cause performance issues on Linux, as there is no native hook implementation in Eclipse. This plugin leverages [jnotify](http://jnotify.sourceforge.net) to hook into the inotify library on Linux. The result, is that you see your file changes in realtime in Eclipse, with no performance hit!
