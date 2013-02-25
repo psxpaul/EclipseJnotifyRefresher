@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: InotifyRefreshProvider
+Bundle-SymbolicName: InotifyRefreshProvider;singleton:=true
+Bundle-Version: 0.0.2
+Bundle-Activator: com.pr.inotify.InotifyPlugin
+Bundle-Vendor: PRoberts Enterprises
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.core.resources
+Bundle-ActivationPolicy: lazy
+Eclipse-LazyStart: true
+Export-Package: com.pr.inotify
+Bundle-NativeCode: lib/x86_64/libjnotify.so; osname=linux; processor=x86_64,
+ lib/libjnotify.so; osname=linux; processor=x86
+Bundle-ClassPath: lib/jnotify-0.94.jar, .
