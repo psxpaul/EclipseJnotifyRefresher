@@ -6,7 +6,7 @@ This is an Eclipse plugin that uses inotify on linux to automatically refresh fi
 
 Installation
 ================
-- Exctract the zip into {ECLIPSE_DIRECTORY}/dropins
+- Exctract [the zip](https://github.com/psxpaul/EclipseRefresher/raw/master/inotify_plugin.zip) into {ECLIPSE_DIRECTORY}/dropins
 - Start Eclipse
 - Go to Window->Preferences->General->Workspace
 - Enable the "Refresh using native hooks or polling" option
